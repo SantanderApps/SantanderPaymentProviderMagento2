@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * GetCampaignValues
+ *
+ * @file GetCampaignValues.php
+ * @author Consid S5 AB <henrik.soderlind@consid.se>
+ * @version 2.0.0
+ * @created 2015-aug-04
+ */
+
+namespace Santander\Easycontract\LowLevelAPI\Soap\Actions;
+
+class GetCampaignValues {
+    public $request; // GetCampaignValuesRequest
+}

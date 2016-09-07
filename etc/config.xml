@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Store/etc/config.xsd">
+    <default>
+        <payment>
+            <monthlyinstalment>
+                <active>1</active>
+                <title>Monthly Instalment</title>
+                <order_status>processing</order_status>
+                <store_id>EasyStubTesters</store_id>
+                <username>testbutik1</username>
+                <password>testbutik1</password>
+                <merchant_id></merchant_id>
+                <env_test>1</env_test>
+                <access_log_external>0</access_log_external>
+                <payment_action>true</payment_action>
+                <model>Santander\Easycontract\Model\MonthlyInstalment</model>
+                <group>offline</group>
+            </monthlyinstalment>
+        </payment>
+    </default>
+</config>
